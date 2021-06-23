@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;  
+}
+
+html, body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+.bas {
+    position: absolute;
+    display: flex;
+    width: 1100px;
+    height: 50px;
+    border-bottom: gray solid 1px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    align-items: center;
+}
+.bas2 > a {
+    font: normal;
+    font-size: 40px;
+    color: rgb(0, 0, 0, .4);
+    font-weight: 800;
+}
+.bas2 >a:hover {
+    color: black;
+}
+.bas1 > a {
+    font: normal;
+    color:rgb(0, 0, 0, .7)
+}
+
+.bas1 > a:hover {
+    color: brown;
+}
+.bas3 > a {
+    font: normal;
+    color: rgb(0, 0, 0, .7);
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 7px 5px;
+}
+.bas3 > a:hover {
+    background-color: grey;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+.navbar {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    width: 1100px;
+    margin-left: 150px;  
+}
+.navbar >a {
+    padding: 10px 15px;
+    color: black;
+}
+.navbar> a:hover {
+    color: white; 
+    background-color: gray;
+}
+
+.orta {
+    position: absolute;
+    width: 1100px;
+    height: 350px;
+    border-style: solid;
+    border-color: #343a40;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 110px;
+    background-color: #343a40;
+}
+.yeke {
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+    padding-left: 40px;
+    font-size: 50px;
+}
+.balaca {
+    color: white;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ikili {
+    position: absolute;
+    display: flex;
+    width: 1100px;
+    height: 300px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 480px;
+}
+.ikili1,
+.ikili2
+{
+    display:inline-flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    
+    border-radius: 5px;
+}
+.ikili11 {
+    width: 300px;
+
+}
+.world {
+    color: dodgerblue;
+    padding-left: 10px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.post {
+    color: rgb(71, 69, 69);
+    padding-left: 10px;
+    font-weight: 900;
+    font-size: 30px;
+}
+.post:hover{
+    color: hotpink;
+}
+.nov{
+    
+    padding-left: 10px;
+    color: grey;
+    padding-top: 0px;
+}
+.txt {
+    padding-left: 10px;
+}
+.cont {
+    padding-left: 10px;
+    font-size: 20px;
+    color: rgb(75, 17, 151);
+}
+.cont:hover {
+    color: white;
+    background-color: black;
+}
+.ikili12 {
+    background-color: rgb(95, 94, 94);
+    color:ivory;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 20px;
+}
+.from {
+    font-style: italic;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 820px;
+    border-bottom: solid rgb(71, 69, 69, .5) 1px;
+    width: 730px;
+}
+.about {
+    background-color: rgb(231, 223, 223);
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 900px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 350px;
+    border-radius: 5px;
+}
+.about > h1{
+    font-style: italic;
+
+}
+span {
+    font-style: italic;
+}
+.saq {
+    position: absolute;
+    display: block; 
+    margin-top: 1000px;
+    margin-left: 900px;
+
+}
+.saq1,
+.saq2,
+.saq1 > a,
+.saq2 > a {
+    display: flex;
+    flex-direction: column;
+    color: dodgerblue;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 17px;
+}
+.saq1 > a:hover,
+.saq2 > a:hover,
+.mark:hover {
+    color: rgb(236, 15, 133);
+}
+.mark {
+    color: dodgerblue;
+    font-weight: 900;
+}
+.sample {
+    position: absolute;
+    width: 730px;
+    margin-left: 150px;
+    margin-top: 850px;
+    border-bottom: gray solid 1px;
+}
+.grey {
+    color: gray;
+}
+.cum {
+    width: 730px;
+    margin-left: 150px;
+    margin-top: 1030px;
+    position: absolute;
+
+}
+.another {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.2;
+} 
+.old {
+    position: absolute;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 2270px;
+}
+.newer {
+    border-style: solid;
+    border-width: 1px;
+    border-color: dodgerblue;
+    border-radius: 25px;
+    padding: 10px 15px;  
+    color: dodgerblue;
+    font-size: 20px;  
+}
+
+.newer:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+.newer2 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(84, 87, 90);
+    border-radius: 25px;
+    padding: 10px 15px;  
+    color: rgb(140, 147, 153);
+    font-size: 20px;
+}
+footer {
+    position: absolute;
+    margin-top: 2330px;
+    background-color: rgb(238, 224, 224);
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    border-top: fuchsia 1px solid;
+}
+.fot {
+    color: rgb(255, 30, 154);
+}
